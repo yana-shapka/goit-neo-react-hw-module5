@@ -30,10 +30,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  margin-bottom: 24px;
+h1,
+h2,
+h3 {
+  margin: 0;
   text-align: left;
 }
 
@@ -72,9 +72,9 @@ li {
   margin: 0;
 }
 
-.appStyle {
+.appWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  padding: 24px;
 }
